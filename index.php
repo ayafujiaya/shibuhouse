@@ -4,7 +4,7 @@
           <ul class="slides">
 <?php $args = array(
      'category_name' => 'topimage',
-     'posts_per_page' => 3, 
+     'posts_per_page' => 5, 
 ); ?>
 <?php $loop = new WP_Query( $args ); ?>
   <?php if($loop -> have_posts()): ?>
